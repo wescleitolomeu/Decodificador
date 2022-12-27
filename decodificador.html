@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+              <title>DecodificadorSecreto</title>
+                <link rel="stylesheet" href="decodificador.css">          
+                  <link rel="shortcut icon" href="imagens/" type="image/x-icon">
+             </head> 
+<body>
+  <main class="principal">
+    
+    <header class="logo">
+      <img src="/logo.png" alt="logo alura">    
+        <h1>Decodificador Secreto</h1>
+    </header> 
+
+    <div class="box-input">
+    <div class="input">
+   
+   <textarea id="input-texto" placeholder="Digite o seu texto aqui..."></textarea>                
+    <h4>ATENÇÃO: Apenas letras minúsculas e sem acento</h4>
+ </div>
+    
+    <div id="output">
+      <img src="/boneco.png" alt="imagem boneco">
+        <h2>Sua mensagem aparecerá aqui!</h2>
+     </div>
+     </div>
+
+    <div class="botao">
+    <div class="box-btn">
+      <button onclick="criptografar()"class="btn-criptografar">Criptografar</button>
+        <button onclick="descriptografar()"class="btn-descriptografar">Descriptografar</button>
+    </div>
+    </div>
+</main>
+
+<footer class="rodape">
+  <h3>Desenvolvedor Wesclei Tolomeu</h3>
+     <p>Copyright - Decodificador Secreto - 2022</p> 
+  
+     <div class="icone">
+       <a href="https://www.linkedin.com/in/wesclei-tolomeu-59760a259/"><ion-icon name="logo-linkedin"></ion-icon>Linkedin</a>
+        <a href ="https://github.com/wescleitolomeu"><ion-icon name="logo-github"></ion-icon>GitHub</a>  
+ </footer>
+
+  <script src="decodificador.js"></script>
+  <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+  <script  nomodule  src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

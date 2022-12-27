@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=Rubik:wght@300;400;500&display=swap'); 
+
+body{
+    background:linear-gradient(45deg, white , darkgray , gray , blue);   
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family:"Rubik" , sans-serif; 
+}
+
+.logo {
+   display: flex;
+   justify-content: space-between;
+   padding: 2%;
+}
+
+.logo h1 {
+   font-style: bold;  
+   font-size: 32px;
+   margin-right: 1em;
+   text-shadow: 3px 3px white; 
+}
+
+.logo img {
+   max-width: 70px;
+   max-height: 70px;
+   width: auto;
+   height: auto; 
+}
+
+.box-input {
+   display: flex;
+   justify-content: space-between;
+   padding: 2% 0 0 4%;  
+}
+
+.box-input .input {
+   width: 400px;
+   height: 330px;
+}
+
+#input-texto {
+   width: 345px;
+   height: 330px;
+   font-size: 32px;
+   color:black;
+   background: transparent;
+   box-shadow: none;
+   border: none;
+   outline: 0;
+   padding: 10px;
+   text-transform:lowercase;
+}
+
+#output {
+   display: flex;
+   flex-direction: column;
+   border: 3px solid;
+   width: 350px;
+   height: 450px;
+   margin-right: 3%;
+   border-radius: 10%;
+   box-shadow: 10px 10px , 10px 10px 30px 20px;
+}
+
+#output h2 {
+   text-align: center;
+   font-size: 25px;
+   color: brown;
+}
+
+#output img {
+   max-width: 300px;
+   max-height: 300px;
+   width: auto;
+   height: auto;
+   margin-top: 4%;
+}
+
+.box-btn button {
+   border: 2px solid;
+   border-radius: 100%;
+   text-decoration: none;
+   color: black;
+   width: 150px;
+   height: 50px;
+   margin-left: 4%;
+   cursor: pointer;
+}
+
+.btn-copiar {
+   border: 2px solid;
+   border-radius: 10px;
+   text-decoration: none;
+   color: black;
+   width: 150px;
+   height: 100px;
+   margin-bottom: 10%;
+   margin-left: 30%;
+   cursor: pointer;
+}
+
+.btn-copiar button:hover {
+   border: 2px solid;
+   transition: 0.5s all;
+   color: blueviolet; 
+}
+
+.box-btn button:hover {
+   border: 2px solid;
+   transition: 0.5s all;
+   color: blueviolet; 
+}
+
+.rodape {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2%;
+   margin-top: 15px;    
+}
+
+.rodape h3 {
+   font-size: 16px;
+}
+
+.icone a {
+   text-decoration: none;
+   font-size: 22px;
+}
+
+.icone a:hover {
+   border: 2px solid;
+   transition: 0.5s all;
+   color: blue;
+}    
+
+@media screen and (max-width:480px){   
+   h1 {
+   text-align: center;
+}
+} 
